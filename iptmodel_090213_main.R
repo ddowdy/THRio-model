@@ -1,6 +1,6 @@
 # Model of IPT in Brazil
 # David Dowdy
-# Revision date: Sept. 2, 2013
+# Revision date: Sept. 3, 2013
 
 ############################################################################
 # DEFINE USER PARAMETERS
@@ -49,7 +49,7 @@ art_fail   <- 0.2      # ART failure, assume 20% of those starting
 
 # TB Treatment, Including IPT
 ipt_rate <- 0          # rate of placing HIV-negative pts on IPT
-ipt_rateh <- 0 #1/3.93      # IPT rate, CD4 >350, baseline 1/3.93
+ipt_rateh <- 1/3.93      # IPT rate, HIV, baseline 1/3.93
 tx_rate <- 0.87             # treatment rate smear-positive TB, no HIV
 rl <- 0.01320             # rate of relapse, treated TB
 rlr <- rl             # rate of relapse, treated MDR-TB
