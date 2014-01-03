@@ -79,7 +79,7 @@ mastermat <- array(0, dim=c(9,5,9,5)) # master transmission matrix, 1st 2 dimens
 # statemat[7,] <- statemat[7,]*0.00003
 # statemat[8,] <- statemat[8,]*0.001
 # statemat[9,] <- statemat[9,]*0.0005
-# statemat[,1] <- statemat[,1]*0.994           # 0.6% adult HIV prev, per USAID
+# statemat[,1] <- statemat[,1]*0.994           # 0.6% adult HIV prev, per UNAIDS
 # statemat[,2] <- statemat[,2]*0.006*0.2*0.8   # 20% not on ART, 80% by CD4 count
 # statemat[,3] <- statemat[,3]*0.006*0.8*0.8
 # statemat[,4] <- statemat[,4]*0.006*0.2*0.2
@@ -473,7 +473,7 @@ outgen<-function(statevect, mastervect) {
 
 
 
-# Times at which the model will be evaluated (0.01-year steps, for XX years to start):
+# Times at which the model will be evaluated (0.01-year steps, for 5 years):
 times <- seq(0, 5, by = 0.1)
 
 # Bring to equilib: statevect as last output
